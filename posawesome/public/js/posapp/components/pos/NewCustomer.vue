@@ -42,13 +42,13 @@
                 <v-text-field
                   dense
                   color="primary"
-                  :label="frappe._('Email Id')"
+                  :label="frappe._('CNIC')"
                   background-color="white"
                   hide-details
                   v-model="email_id"
                 ></v-text-field>
               </v-col>
-              <v-col cols="6">
+              <!-- <v-col cols="6">
                 <v-text-field
                   dense
                   color="primary"
@@ -89,7 +89,7 @@
                   >
                   </v-date-picker>
                 </v-menu>
-              </v-col>
+              </v-col> -->
               <v-col cols="6">
                 <v-autocomplete
                   clearable
@@ -111,11 +111,11 @@
                   dense
                   auto-select-first
                   color="primary"
-                  :label="frappe._('Territory')"
+                  :label="frappe._('City')"
                   v-model="territory"
                   :items="territorys"
                   background-color="white"
-                  :no-data-text="__('Territory not found')"
+                  :no-data-text="__('City not found')"
                   hide-details
                 >
                 </v-autocomplete>
