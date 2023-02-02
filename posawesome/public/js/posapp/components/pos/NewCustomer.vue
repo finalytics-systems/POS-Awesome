@@ -22,7 +22,7 @@
                 <v-text-field
                   dense
                   color="primary"
-                  :label="frappe._('Tax ID')"
+                  :label="frappe._('Address')"
                   background-color="white"
                   hide-details
                   v-model="tax_id"
